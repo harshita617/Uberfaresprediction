@@ -279,29 +279,6 @@ MAE
 R²
 ```
 
----
-
-## 📊 Visualizations
-
-### Training vs Validation Loss
-
-The project generates a loss curve to visualize model training and validation performance.
-
-```text
-loss_curve.png
-```
-
-### Actual vs Predicted Fare
-
-A scatter plot is generated to compare actual fares with model predictions.
-
-```text
-actual_vs_predicted.png
-```
-
-A diagonal reference line represents perfect predictions.
-
----
 
 ## 💾 Saved Model
 
@@ -337,22 +314,6 @@ This allows the trained ANN to be loaded later without retraining.
 * Dropout
 * Early Stopping
 * Model Evaluation
-
----
-
-## 📁 Project Structure
-
-```text
-Uber-Fare-Prediction-ANN/
-│
-├── uber-fares-ann.ipynb
-├── uber_fare_ann_model.keras
-├── loss_curve.png
-├── actual_vs_predicted.png
-└── README.md
-```
-
----
 
 ## 🚀 How to Run
 
